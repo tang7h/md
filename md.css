@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+.md-btn {
+  flex: none;
+  border-radius: 2px;
+  background: transparent;
+  border: none;
+  color: #2196f3;
+  line-height: 36px;
+  padding: 0 16px;
+  margin: 8px 8px 0 0;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .2s;
+  text-align: center;
+}
+.md-btn:hover {
+  background: rgba(0,0,0,.05);
+}
+.md-btn-primary {
+  color: #fff;
+  background: #2196f3;
+}
+.md-btn-primary:hover {
+  background-color: #42A5F5;
+}
+.md-btn-block {
+  flex: 1 1 auto;
+}
+.md-btn-group {
+  display: flex;
+  margin-top: 16px;
+}
+.md-btn.wechat {
+  color: #4caf50;
+}
+.md-btn.primary.wechat {
+  background-color: #4CAF50;
+}
+.md-btn.primary.wechat:hover {
+  background-color: #66BB6A;
+}
+
+/*input*/
+.md-input {
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+  padding: 16px 16px 8px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+.md-input:focus {
+  padding-bottom: 7px;
+  border-bottom: 2px solid #2196f3;
+  outline: none;
+}
+
+/*card*/
+.md-card {
+  padding: 24px;
+}
+.md-card.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
